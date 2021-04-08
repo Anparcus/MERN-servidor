@@ -1,11 +1,20 @@
 {
-  "name": "merntaskservidor",
-  "version": "1.0.0",
-  "description": "MERN API para MERN TASKS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Yeisson Andrés Pulgarín López",
-  "license": "ISC"
+    "name": "merntaskservidor",
+    "version": "1.0.0",
+    "description": "MERN API para MERN TASKS",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "author": "Yeisson Andrés Pulgarín López",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.3"
+    }
 }
