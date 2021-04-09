@@ -43,7 +43,7 @@ exports.crearUsuario = async (req, res) => {
 
       //firmar el JSON WEB TOKEN 
       jwt.sign(payload, process.env.SECRETA, {
-         expiresIn: 3_600
+         expiresIn: 3_600 // 1hora
       }, (error, token) => {
          if (error) throw error;
 
