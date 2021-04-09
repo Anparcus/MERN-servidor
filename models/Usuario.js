@@ -1,4 +1,4 @@
-const nomgoose = require('mongoose');
+const mongoose = require('mongoose');
 
 const UsuariosSchema = mongoose.Schema({
    nombre: {
