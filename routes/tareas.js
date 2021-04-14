@@ -24,7 +24,7 @@ router.get('/',
 //Actualizar tarea
 router.put('/:id',
    auth,
-   tareaController.
+   tareaController.actualizarTarea
 );
 
 
